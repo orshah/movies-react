@@ -6,16 +6,16 @@ function Navigation() {
   return (
     <div>
       {" "}
-      <nav class="navigation">
-        <p class="logo">Geekflix</p>
-        <ul class="top-menu">
+      <nav className="navigation">
+        <p className="logo">Geekflix</p>
+        <ul className="top-menu">
           <li>
             <a href="#">Headlines</a>
           </li>
           <li>
             <a href="#">Articles</a>
           </li>
-          <li class="active">
+          <li className="active">
             <a href="#">Movies & Films</a>
           </li>
           <li>

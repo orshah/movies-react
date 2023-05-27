@@ -42,6 +42,7 @@ a:hover {
   border-radius: 10px;
 }
 .top-menu {
+  margin-top: 10px;
   display: flex;
   flex-direction: row;
   gap: 1rem;

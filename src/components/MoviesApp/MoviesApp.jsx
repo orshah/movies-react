@@ -8,7 +8,7 @@ function MoviesApp() {
   return (
     <>
       <Navigation />
-      <main className="list">
+      <main className="container-main">
         <MoviesList />
       </main>
     </>
