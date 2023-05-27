@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.listMovies {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  width: fit-content;
+  gap: 1rem;
+  list-style: none;
+  justify-items: center;
+  align-items: baseline;
+}
+
+.listMovies img {
+  height: 20rem;
+  border-radius: 2%;
+  width: 15rem;
+}
+
+/* @media screen and (max-width: 1000px) {
+  body {
+    width: 100%;
+  }
+}
+
+main {
+  display: flex;
+  justify-content: center;
+} */
