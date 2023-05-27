@@ -10,22 +10,22 @@ function Navigation() {
         <p className="logo">Geekflix</p>
         <ul className="top-menu">
           <li>
-            <a href="">Headlines</a>
+            <a href="/#">Headlines</a>
           </li>
           <li>
-            <a href="">Articles</a>
+            <a href="/#">Articles</a>
           </li>
           <li className="active">
-            <a href="">Movies & Films</a>
+            <a href="/#">Movies & Films</a>
           </li>
           <li>
-            <a href="">Television</a>
+            <a href="/#">Television</a>
           </li>
           <li>
-            <a href="">Music</a>
+            <a href="/#">Music</a>
           </li>
           <li>
-            <a href="">Celebrities</a>
+            <a href="/#">Celebrities</a>
           </li>
         </ul>
       </nav>
