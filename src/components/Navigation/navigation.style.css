@@ -1,0 +1,50 @@
+.logo {
+  font-family: Open Sans Condensed, sans-serif;
+  font-size: 40px;
+  line-height: 15px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  color: azure;
+  font-weight: bold;
+}
+
+nav {
+  background-image: linear-gradient(
+    114.9deg,
+    rgba(34, 34, 34, 1) 8.3%,
+    rgba(0, 40, 60, 1) 41.6%,
+    rgba(0, 143, 213, 1) 93.4%
+  );
+  align-items: baseline;
+  height: 6rem;
+  width: 100%;
+  display: flex;
+  justify-items: flex-end;
+  flex-direction: row;
+}
+
+a {
+  text-decoration: none;
+  color: azure;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 0 25px;
+  color: #eee;
+  margin: 0%;
+  line-height: 65px;
+  display: block;
+}
+
+a:hover {
+  color: #fff;
+  background: rgba(58, 176, 255, 0.35);
+  transition-duration: 0.05s;
+  border-radius: 10px;
+}
+.top-menu {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  list-style: none;
+  text-decoration: none;
+}
