@@ -1,5 +1,6 @@
 import "./moviesCard.style.css";
 import React from "react";
+import PropTypes from "prop-types";
 
 function MoviesCard(props) {
   const { title, genre, picture } = props.cardData;
@@ -11,5 +12,13 @@ function MoviesCard(props) {
     </li>
   );
 }
+
+MoviesCard.propTypes = {
+  cardData: PropTypes.shape({
+    title: PropTypes.string.isRequired,
+    genre: PropTypes.string.isRequired,
+    picture: PropTypes.string.isRequired,
+  }),
+};
 
 export default MoviesCard;

@@ -1,5 +1,5 @@
 import "./tootlips.style.css";
-
+import PropTypes from "prop-types";
 import React from "react";
 
 function Tootlips(props) {
@@ -15,5 +15,13 @@ function Tootlips(props) {
     </div>
   );
 }
+
+Tootlips.propTypes = {
+  tootlipData: PropTypes.shape({
+    tootlip: PropTypes.string.isRequired,
+    tootlipImg: PropTypes.string.isRequired,
+    tootlipText: PropTypes.string.isRequired,
+  }),
+};
 
 export default Tootlips;
