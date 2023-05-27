@@ -9,7 +9,7 @@ function Tootlips(props) {
     <div className="mytooltip tooltip-effect-1">
       <article className="tooltip-item">{tootlip}</article>
       <span className="tooltip-content clearfix">
-        <img src={tootlipImg} />
+        <img src={tootlipImg} alt="" />
         <span className="tooltip-text">{tootlipText}</span>
       </span>
     </div>
